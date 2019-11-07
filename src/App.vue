@@ -6,12 +6,7 @@
     <div id="ds42-nav">
   <navigationcomp></navigationcomp>
   </div>
-   <progbar></progbar>
-   <div class="prog-bar">
-        <div class="progress-container">
-          <div class="progress-bar" id="myBar"></div>
-        </div>
-      </div>
+
   <div class="ds42-body">
   <transition name="moveInUp">
   <router-view/>

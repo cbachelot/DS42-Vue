@@ -11,6 +11,16 @@
 <hr><div class="ds42-nav-title">Foundations</div>
 <router-link  to="/foundations">Foundations Overview</router-link>
 <router-link  to="/colors">Colors</router-link>
+<router-link  to="/typography">Typography</router-link>
+<hr><div class="ds42-nav-title">Components</div>
+<router-link  to="/componentsoverview">Components Overview</router-link>
+<router-link  to="/accordions">Accordions</router-link>
+<router-link  to="/buttons">Buttons</router-link>
+<router-link  to="/tables">Data Tables</router-link>
+<router-link  to="/datepickers">Date Pickers</router-link>
+<router-link  to="/formfields">Form Fields</router-link>
+<router-link  to="/selection">Selection Controls</router-link>
+
 </nav>
 </div>
 </template>
