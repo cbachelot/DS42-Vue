@@ -2,7 +2,6 @@
  <div class="colors">
   <div class="page-grid">
 
-
                 <div class="page-overview purple-gradient">
                     <div class="content-column-left">
                         <div>
@@ -35,7 +34,6 @@
                                 <p>To create contrast between elements, you can use lighter or darker tones of your
                                     primary color. The contrast between lighter and darker tones helps show division
                                     between surfaces, such as between the status bar and a toolbar.</p>
-
 
                             </div>
 
@@ -181,7 +179,6 @@
                                     <p>The secondary color is used to accent select parts of our UI. It should contrast with elements that surround it and be applied sparingly as an accent.</p>
 
                                     <p>While black is our primary support color it is never reccomended to use pure black. For most components we use S-Light #2c2c2c or 80% black.</p>
-
 
                                 </div>
 
@@ -345,7 +342,6 @@
                                                             <p>#f4f4f4</p>
                                                             <p class="accent-variable">$allied_background_gray_l</p></div>
                                                         </div>
-
 
                                         </div>
                                     <div>

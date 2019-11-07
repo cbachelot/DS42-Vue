@@ -1,20 +1,19 @@
 <template>
   <div class="home">
 <div class="page-grid">
-	<div class="page-overview blue-gradient">
+<div class="page-overview blue-gradient">
           <div>
           <h2>Design System 42</h2>
           <p>The ultimate answer to a consistent and scalable design language, user experience, and digital identity is... Design System 42.</p>
           <p>We challenge ourselves every day to make consistent, useful products that help make our users lives better. We acknowledge that this is a continually moving goal that we must adapt to over time, and we accept this challenge as a way to strive to be better tomorrow than we are today.</p>
           </div>
-          
 
     </div>
-	 <div class="page-content">
+<div class="page-content">
 
     <h1>Getting Started</h1>
 
-		  <div class="four-column-layout">
+ <div class="four-column-layout">
           <a href="ds-foundations-overview.html">
               <div class="overview-section-cta">
                   <img alt="Foundations Overview" src="../images/foundations-graphic.svg">
@@ -37,11 +36,8 @@
             </div>
           </router-link>
       </div>
-
-
-
 </div>
-	</div>
+</div>
 </div>
 </template>
 <script>
