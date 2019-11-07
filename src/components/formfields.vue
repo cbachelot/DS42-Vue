@@ -156,7 +156,7 @@ export default{
   name: 'formfields',
   data () {
     return {
-      title: 'Formfields'
+      title: 'formfields'
     }
   }
 }
