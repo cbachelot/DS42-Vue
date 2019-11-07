@@ -1,10 +1,18 @@
 <template>
   <div id="app">
-  <div class="ds42-main-grid">
+
+    
+  <div class="ds42-main-grid">    
     <a class="toggle open" href="#ds42-nav"><img src="./images/menu.svg" alt="menu icon"/></a>
     <div id="ds42-nav">
   <navigationcomp></navigationcomp>
   </div>
+   <progbar></progbar>
+   <div class="prog-bar">
+        <div class="progress-container">
+          <div class="progress-bar" id="myBar"></div>
+        </div>
+      </div>
   <div class="ds42-body">
   <transition name="moveInUp">
   <router-view/>
@@ -23,14 +31,19 @@ export default {
 
 <script>
 import navigationcomp from './components/navigationcomp';
+import progbar from './components/progbar';
 
 export default {
   components: {
-    navigationcomp
+    navigationcomp,
+    progbar
   }
 }
 
 </script>
+
+
+
 <style>
 
 @import './assets/ds-42.css';
