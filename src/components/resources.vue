@@ -1,6 +1,5 @@
 <template>
  <div class="Resources">
-   
  <div class="page-grid">
           <div class="page-overview green-gradient">
             <div class="content-column-left">
@@ -238,5 +237,7 @@ export default{
   }
 }
 </script>
+
+
 <style scoped>
 </style>
