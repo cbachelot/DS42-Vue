@@ -4,15 +4,14 @@
  </div>
 </template>
 <script>
- export default{
-  name:'colors',
-  data (){
-   return{
-    title:'Colors'
-   }
+export default{
+  name: 'colors',
+  data () {
+    return {
+      title: 'Colors'
+    }
   }
- }
+}
 </script>
 <style scoped>
- 
 </style>
