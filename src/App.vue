@@ -35,8 +35,6 @@ export default {
 
 @import './assets/ds-42.css';
 
-#app {
-}
 .moveInUp-enter-active{
   animation: fadeIn 1s ease-in;
 }
@@ -63,4 +61,3 @@ export default {
  }
 }
 </style>
-
