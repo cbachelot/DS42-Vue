@@ -125,3 +125,13 @@
 
              </div>
 </template>
+<script>
+export default{
+  name: 'selection',
+  data () {
+    return {
+      title: 'selection'
+    }
+  }
+}
+</script>
