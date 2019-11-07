@@ -1,6 +1,8 @@
 <template>
   <div id="app">
-  <div class="ds42-main-grid">
+
+     <progbar></progbar>
+  <div class="ds42-main-grid">    
     <a class="toggle open" href="#ds42-nav"><img src="./images/menu.svg" alt="menu icon"/></a>
     <div id="ds42-nav">
   <navigationcomp></navigationcomp>
@@ -23,14 +25,19 @@ export default {
 
 <script>
 import navigationcomp from './components/navigationcomp';
+import progbar from './components/progbar';
 
 export default {
   components: {
-    navigationcomp
+    navigationcomp,
+    progbar
   }
 }
 
 </script>
+
+
+
 <style>
 
 @import './assets/ds-42.css';
