@@ -359,7 +359,7 @@ export default{
   name: 'colors',
   data () {
     return {
-      title: 'Colors'
+      title: 'colors'
     }
   }
 }

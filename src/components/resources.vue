@@ -232,7 +232,7 @@ export default{
   name: 'resources',
   data () {
     return {
-      title: 'Resources'
+      title: 'resources'
     }
   }
 }

@@ -38,7 +38,7 @@ export default{
   name: 'foundations',
   data () {
     return {
-      title: 'Foundations'
+      title: 'foundations'
     }
   }
 }
