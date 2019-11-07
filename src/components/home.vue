@@ -13,20 +13,20 @@
     <h1>Getting Started</h1>
 
 <div class="four-column-layout">
-          <a href="ds-foundations-overview.html">
+           <router-link  to="/foundations">
               <div class="overview-section-cta">
                   <img alt="Foundations Overview" src="../images/foundations-graphic.svg">
                   <h4>Foundations</h4>
                   <p class="overview-section-desc">The guidelines and usage of the basic building blocks of DS42.</p>
               </div>
-          </a>
-          <a href="ds-components.html">
+          </router-link>
+         <router-link  to="/componentsoverview">
           <div class="overview-section-cta">
               <img alt="Components Overview" src="../images/components-graphic.svg">
               <h4>Components</h4>
               <p class="overview-section-desc">A collection of DS42 components including code and guidelines.</p>
           </div>
-        </a>
+        </router-link>
         <router-link  to="/resources">
             <div class="overview-section-cta">
                 <img alt="Resources" src="../images/resources-graphic.svg">
