@@ -48,7 +48,7 @@
                                         <div class="checkbox-states"><p class="remove-margin-top">Indeterminate</p><img src="../images/checkbox-indeterminate.svg" alt="Checkbox Indeterminate"></div>
                                         <div class="checkbox-states"><p class="remove-margin-top">Disabled Unselected</p><img src="../images/disabled-unselected.svg" alt="Disabled Unselected"></div>
                                         <div class="checkbox-states"><p class="remove-margin-top">Disabled Selected</p><img src="../images/disabled-selected.svg" alt="Disabled Selected"></div>
-
+                                        <div class="checkbox-states"><p class="remove-margin-top">Disabled Indeterminate</p><img src="../images/disabled-indeterminate.svg" alt="Disabled Indeterminate"></div>
                                     </div>
                                     <hr>
                                     <div class="content-column-two bottom-margin-zero ">
