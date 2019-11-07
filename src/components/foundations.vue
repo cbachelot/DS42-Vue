@@ -21,13 +21,13 @@
                                 <p class="overview-section-desc">Colors help us maintain good brand consistency while providing clear direct interfaces for our users.</p>
                             </div>
                         </router-link>
-                        <a href="ds-foundations-typography.html">
+                        <router-link  to="/typography">
                             <div class="overview-section-cta">
                                 <img alt="Typography" src="../images/type-preview.svg">
                                 <h4>Typography</h4>
                                 <p class="overview-section-desc">Good typography is important for our brand, which cherishes craftsmanship and quality.</p>
                             </div>
-                        </a>
+                        </router-link>
                     </div>
                 </div>
             </div>
