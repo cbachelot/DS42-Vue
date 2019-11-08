@@ -1,0 +1,13 @@
+const cacheName = `1.5`
+
+self.addEventListener('install', function (event) {
+  event.waitUntil(
+    caches.open(cacheName).then(function (cache) {
+      return cache
+        .addAll([
+          '../index.html'
+        ])
+        .then(() => self.skipWaiting())
+    })
+  )
+})
