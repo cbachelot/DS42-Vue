@@ -1,12 +1,31 @@
 <!DOCTYPE html>
-<html>
+<html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <!--Link to the manifest-->
+    <link rel="manifest" href="<%= htmlWebpackPlugin.files.publicPath %>static/manifest.json">
+    <meta name="theme-color" content="#001d2c"/>
+    <!-- reuse same icon for Safari -->
+<link rel="apple-touch-icon" href="./static/app-images/images/icons/icon-192x192.png">
+
+<meta name="Description" content="DS 42 is a design system for Allied Electronics & Automation. It is in it's infancy but it is growing with support.">
+
     <title>Design System 42</title>
   </head>
   <body>
     <div id="app"></div>
     <!-- built files will be auto injected -->
+    <noscript>
+      <p>Javascript is require to view this page.</p>
+    </noscript>
+    <script type="application/javascript">
+      if('serviceWorker' in navigator) {
+        navigator.serviceWorker
+                 .register('./static/sw.js')
+                 //.then(function() { console.log("Service Worker Registered"); });
+                 .then(reg => {reg.update();});
+      }
+      </script>
   </body>
 </html>
